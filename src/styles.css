@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20241009/pngtree-top-view-of-a-table-with-various-delicious-grilled-meats-vegetables-image_16353435.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+h1 {
+  font-family: cursive;
+  color: white;
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+  padding: 10px 250px;
+}
+
+button {
+  color: white;
+  font-family: cursive;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 6px 12px;
+  background: none;
+  border: none;
+}
