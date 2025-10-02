@@ -5,14 +5,20 @@ export function pageLoads() {
   containerDiv.id = "container-div";
 
   const heading = document.createElement("h2");
-  heading.textContent = "Good vibes, great bites.";
+  heading.textContent = "Good vibes , Great bites";
   heading.classList.add("text", "heading");
 
   const description = document.createElement("p");
   description.textContent =
-    "Rest-o-Rant isn’t just a restaurant – it’s an experience. Serving up mouthwatering dishes with bold flavors, we bring you comfort food with a twist. Whether you’re here to relax, rant with friends, or just indulge, Rest-o-Rant is the perfect spot for good vibes and even better food.";
+    "Rest-o-Rant isn’t just a restaurant – it’s an experience. Serving up mouthwatering dishes with bold flavors, we bring you comfort food with a twist.";
   description.classList.add("text", "description");
 
-  content.append(heading);
-  content.append(description);
+  const book = document.createElement("button");
+  book.id = "book-btn";
+  book.textContent = "Book an appointment";
+
+  containerDiv.append(heading);
+  containerDiv.append(description);
+  containerDiv.append(book);
+  content.append(containerDiv);
 }

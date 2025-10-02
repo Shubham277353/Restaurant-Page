@@ -21,7 +21,7 @@ h1 {
   color: orangered;
   font-weight: 600;
   font-size: 3rem;
-  margin-left: 340px;
+  margin-left: 360px;
 }
 
 
@@ -31,10 +31,10 @@ nav {
   padding: 10px 250px;
 }
 
-button {
+.button {
   color: white;
   font-family: cursive;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 600;
   padding: 6px 12px;
   background: none;
@@ -42,7 +42,7 @@ button {
   cursor: pointer;
 }
 
-button:hover{
+.button:hover{
   color: orangered;
   text-decoration: underline;
 }
@@ -51,6 +51,35 @@ button:hover{
   color: white;
 }
 
+#container-div{
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 200px;
+  right: 150px;
+  gap: 30px;
+}
+
 .heading{
-  
+  font-size: 3rem;
+}
+
+.description{
+  font-size: 1.5rem;
+}
+
+#book-btn{
+  padding: 30px 15px;
+  font-size: 2rem;
+  font-weight: 700;
+  background-color: orangered;
+  color: white;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+#book-btn:hover{
+  background-color: rgb(219, 79, 28);
 }
