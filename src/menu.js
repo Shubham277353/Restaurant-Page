@@ -5,7 +5,7 @@ export function loadMenu() {
   content.textContent = "";
 
   const containerDiv = document.createElement("div");
-  containerDiv.id = "container-div";
+  containerDiv.id = "menu-container-div";
   
   const heading = document.createElement("h1");
   heading.id = "menu-heading";
@@ -87,8 +87,8 @@ export function loadMenu() {
       menuCardDescription.textContent = food.description;
       menuCardPrice.textContent = food.price;
       menuCard.append(
-        menuCardHeading,
         menuCardImg,
+        menuCardHeading,
         menuCardDescription,
         menuCardPrice
       );

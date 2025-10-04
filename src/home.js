@@ -2,6 +2,7 @@ import "./home.css";
 
 export function loadHome() {
   const content = document.querySelector("#content");
+  content.textContent = "";
 
   const containerDiv = document.createElement("div");
   containerDiv.id = "container-div";

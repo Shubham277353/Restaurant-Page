@@ -1,11 +1,16 @@
-#container-div {
+body {
+  background-color: #363a3b;
+}
+
+#menu-container-div {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* border: 1px solid white; */
   position: absolute;
   top: 200px;
-  right: 100px;
+  right: 160px;
   gap: 30px;
+  /* background-color: white; */
+  padding: 10px;
 }
 
 #menu-heading {
@@ -13,24 +18,36 @@
   font-size: 3rem;
   font-family: cursive;
   text-align: center;
+  margin-top: 30px;
   margin-left: 460px;
 }
 
 .menu-card {
-  padding: 10px;
-  /* border: 1px solid white; */
-  color: white;
+  padding: 16px;
+  color: black;
   height: auto;
-  width: 380px;
+  width: 350px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 10px;
   font-family: cursive;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.menu-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.menu-card-heading {
+  font-size: 1.6rem;
 }
 
 .menu-card-img {
   height: 250px;
-  width: 350px;
-  border: 4px solid white;
+  width: 320px;
 }
