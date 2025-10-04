@@ -1,4 +1,6 @@
-export function pageLoads() {
+import "./home.css";
+
+export function loadHome() {
   const content = document.querySelector("#content");
 
   const containerDiv = document.createElement("div");

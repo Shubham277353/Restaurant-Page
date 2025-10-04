@@ -1,4 +1,6 @@
-import "./styles.css"
-import {pageLoads} from "./pageLoad";
+import "./style.css";
+// import { loadHome } from "./home";
+import { loadMenu } from "./menu";
 
-pageLoads();
+// loadHome();
+loadMenu();
